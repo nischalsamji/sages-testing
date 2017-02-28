@@ -58,8 +58,8 @@ namespace SagesLists
             driver.Navigate().GoToUrl("https://trial.sagesgov.com/");  
             Thread.Sleep(3000);
             driver.FindElement(By.Id("cphContent_cphMain_Login1_txtUserName")).SendKeys(Keys.Control +  "a");
-            driver.FindElement(By.Id("cphContent_cphMain_Login1_txtUserName")).SendKeys("atadmin");            
-            driver.FindElement(By.Id("cphContent_cphMain_Login1_txtPassword")).SendKeys("123456");
+            driver.FindElement(By.Id("cphContent_cphMain_Login1_txtUserName")).SendKeys("USERNAMEHERE");            
+            driver.FindElement(By.Id("cphContent_cphMain_Login1_txtPassword")).SendKeys("PASSWORDHERE");
             driver.FindElement(By.Id("cphContent_cphMain_Login1_btnLogin")).Click();
             Thread.Sleep(2000);
             driver.FindElement(By.Id("cphContent_mainMenu1_hypAdministration")).Click();
