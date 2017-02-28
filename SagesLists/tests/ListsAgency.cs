@@ -50,7 +50,6 @@ namespace SagesLists
         public void TheListsAgencyTest()
         {
             driver = new FirefoxDriver();
-            //baseURL = new String("https://trial.sagesgov.com/Account/Login.aspx");
             verificationErrors = new StringBuilder();
             randGen = new Random();
             agencyName = new StringBuilder("Agency");
@@ -76,7 +75,7 @@ namespace SagesLists
             Thread.Sleep(2000);
             driver.FindElement(By.PartialLinkText(agencyName.ToString())).Click();
             driver.FindElement(By.Id("cphContent_cphMain_cphRightColumn_txtAgencyName")).Clear();
-            driver.FindElement(By.Id("cphContent_cphMain_cphRightColumn_txtAgencyName")).SendKeys(agencyName.ToString());
+            driver.FindElement(By.Id("cphContent_cphMain_cphRightColumn_txtAgencyName")).SendKeys(agencyName.ToString()+"edit");
             driver.FindElement(By.Id("cphContent_cphMain_cphRightColumn_btnSave")).Click();
             driver.FindElement(By.CssSelector("button.toast-close-button")).Click();
         }
