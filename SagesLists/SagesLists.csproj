@@ -71,6 +71,28 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="selenium-scripts\lists_accounts.html" />
+    <Content Include="selenium-scripts\lists_agency.html" />
+    <Content Include="selenium-scripts\lists_certificates.html" />
+    <Content Include="selenium-scripts\lists_citations.html" />
+    <Content Include="selenium-scripts\lists_dataforms.html" />
+    <Content Include="selenium-scripts\lists_fees.html" />
+    <Content Include="selenium-scripts\lists_filetypes.html" />
+    <Content Include="selenium-scripts\lists_gasutilities.html" />
+    <Content Include="selenium-scripts\lists_holdtypes.html" />
+    <Content Include="selenium-scripts\lists_inspections.html" />
+    <Content Include="selenium-scripts\lists_licenses.html" />
+    <Content Include="selenium-scripts\lists_meetings.html" />
+    <Content Include="selenium-scripts\lists_notices.html" />
+    <Content Include="selenium-scripts\lists_permits.html" />
+    <Content Include="selenium-scripts\lists_powerutilities.html" />
+    <Content Include="selenium-scripts\lists_professions.html" />
+    <Content Include="selenium-scripts\lists_reviews.html" />
+    <Content Include="selenium-scripts\lists_tasks.html" />
+    <Content Include="selenium-scripts\lists_templates.html" />
+    <Content Include="selenium-scripts\sages_lists.html" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
